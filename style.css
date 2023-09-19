@@ -1,0 +1,44 @@
+ol div img{
+    width: 150px;
+    height: 100px;
+    padding-top: 20px;
+}
+h1{
+    text-align: left;
+     color: black;
+}
+ol{
+    color: blueviolet;
+    text-shadow:3px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    position: absolute;
+    
+}
+div{
+    padding: 20px 0px;
+    margin: 0px 0px;
+}
+p{
+    color: black;
+
+}
+.zoom-wrapper{height: 100px;
+    overflow: hidden;
+    border-radius: 10px;}
+    .zoom-wrapper img{
+        object-fit: cover;
+        transition: transform 0.8s;
+        height: 100%;
+    }
+    .zoom-wrapper:hover img {
+        transform:scale(1.5);
+    
+    }
+     * {
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+    }
+    body{
+        background: #460c0c;
+    }
